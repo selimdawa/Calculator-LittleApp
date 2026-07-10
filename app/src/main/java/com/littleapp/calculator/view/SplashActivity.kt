@@ -1,13 +1,13 @@
-package com.littleapp.calculator.Activity
+package com.littleapp.calculator.view
 
 import android.content.Context
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import com.littleapp.calculator.Unit.CLASS
-import com.littleapp.calculator.Unit.THEME
-import com.littleapp.calculator.Unit.VOID
+import com.littleapp.calculator.utils.CLASS
+import com.littleapp.calculator.utils.THEME
+import com.littleapp.calculator.utils.VOID
 import com.littleapp.calculator.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {

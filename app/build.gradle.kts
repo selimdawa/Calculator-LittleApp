@@ -1,5 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.ksp)
+    alias(libs.plugins.dagger.hilt.android)
+    alias(libs.plugins.navigation.safeargs.kotlin)
 }
 
 android {
@@ -47,6 +50,23 @@ dependencies {
     //Layout
     implementation(libs.androidx.constraintlayout)
     implementation(libs.material)
+    //Life Cycle
+    implementation(libs.lifecycle.viewmodel.ktx)
+    implementation(libs.lifecycle.livedata.ktx)
+    //Kotlin Coroutines
+    implementation(libs.kotlinx.coroutines.core)   //Core
+    implementation(libs.kotlinx.coroutines.android) //Android
+    //Navigation
+    implementation(libs.navigation.fragment.ktx)  //Navigation Fragment
+    implementation(libs.navigation.ui.ktx)      //Navigation Components
+    implementation(libs.navigation.dynamic.features)
+    //Room
+    implementation(libs.room.runtime)
+    ksp(libs.room.compiler)
+    //Dagger - Hilt
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.android.compiler)
+    implementation(libs.hilt.navigation.fragment)
     //Other's
     implementation(libs.exp4j)                          //Calculator
     implementation(libs.timber)                         //Timber Log

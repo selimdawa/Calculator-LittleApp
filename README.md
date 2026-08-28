@@ -1,9 +1,10 @@
-<h1 align="center">Calculator - Little App</h1>
+﻿<h1 align="center">Calculator - Little App</h1>
 
 <p align="center">
  <a><img alt="Min SDK" src="https://img.shields.io/badge/Min SDK-24-020290?logo=android&logoColor=white"/></a>
  <a><img alt="Target SDK" src="https://img.shields.io/badge/Target SDK-37-0EB265?logo=android&logoColor=0EB265"/></a>
  <a href="https://kotlinlang.org"><img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-2.4.0-blue?logo=kotlin&logoColor=white"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square"/></a>
 </p>
 
 ## Day Mode
@@ -17,3 +18,10 @@ One | Two | Three
 ![](https://blogger.googleusercontent.com/img/a/AVvXsEgu8gZWgVg9pba0-8vKEuqwm92e2fc_0OqH_V2rjWagf0kj_WcWlcwplzkmK4ZwrRa0X9dCUJYNNHt9vv2-waHNfi5muq1qDtsgdup6Gy4yD79RAJd4MigLszPWgvEzftY8aD1UphjPmAp_Fc2btFvco3DbOn7zEaFARPRnJlCpWFdXP12eFpALA77R-g) | ![](https://blogger.googleusercontent.com/img/a/AVvXsEjgoryyfUclsOMVIAEdeq6BHcbtadVrpH0xioBS0lutThs_nfsUoIAAZqH9j-6JuB9Xp95_KFfYSNakyG80EvRgpL7w17c_zTJtNZ_BdRvA5WioorB1EAhNy1KDhaYtHGUkjnRyc5ZhG3_m0jwl55l0szp-MjHe3Hj19_EdwgTTVSQrbZEAKelWlC5Zhw) | ![](https://blogger.googleusercontent.com/img/a/AVvXsEisPfWfgk4tZxGCd19SEM82MDnaeJ4bSIEMoD9dU_3ML-kzghrgL9lmCau4r7SR1M6YePPJDTwH-RQlXXDvcFZVhb8yEA6FN5L1W58f-RcCJ5RF9v8RUPH_6KfuE9Ocfz5E5HbfPKLaFo3zFsHWvZfHK4-Uqat0z_kh-8Ki2yWjG9WINJaCsAL5nP8KEA) | 
 
 - [Simple Advanced Apps - Kotlin](https://github.com/selimdawa/SimpleAdvancedAppsKotlin/)
+
+
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
